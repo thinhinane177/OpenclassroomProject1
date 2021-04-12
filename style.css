@@ -1,0 +1,53 @@
+                /*  Définition des polices personnalisées */
+                @font-face
+                {
+                font-family: 'BallparkWeiner';
+                    src: url('police/BallparkWeiner.eot');
+                    src: url('police/BallparkWeiner.eot?#iefix') format('embedded-opentype');
+                    src: url('police/BallparkWeiner.woff') format('woff');
+                    src: url('police/BallparkWeiner.ttf') format('truetype');
+                    src: url('police/BallparkWeiner.svg#BallparkerWeiner') format('svg');
+                font-weight: normal;
+                font-style: normal;
+                }
+
+                @font-face
+                {
+                font-family: 'Dayrom';
+                    src: url('police/Dayrom.eot');
+                    src: url('police/Dayrom.eot?#iefix') format('embedded-opentype');
+                    src: url('police/Dayrom.woff') format('woff');
+                    src: url('police/Dayrom.ttf') format('truetype');
+                    src: url('police/Dayrom.svg#BallparkerWeiner') format('svg');
+                font-weight: normal;
+                font-style: normal;
+                }
+
+
+                /* Element principaux de la page  */
+                body
+                {
+                background: url('images/fond_jaune.png');
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                color: #181818;
+                }
+            
+                #bloc_page 
+                {
+                    width: 900px;
+                    margin: auto;
+                }
+
+                section h1, footer h1, nav a
+                {
+                    font-family: Dayrom, serif;
+                    font-weight: normal;
+                    text-transform: uppercase;
+                }
+            
+        
+                    
+
+
+
+
